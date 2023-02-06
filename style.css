@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@400;600&display=swap');
+
+:root {
+  --color-body-text: #826e52;
+  --color-body-bg: #e6bb95;
+}
+
+
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+#container{
+	font-size: 20px;
+}
+@media (max-height: 800px){
+    #container {
+      font-size: 10px;
+    }
+  }
+  body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+  }
