@@ -89,6 +89,12 @@ footer {
   background-color: black;
   padding: var(--padding-header-footer);
 }
+@media all and (min-width: 769px){
+    #container{
+        width: 700px;
+        margin:auto;
+    }
+}
 
 
 
