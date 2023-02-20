@@ -61,3 +61,9 @@ nav section {
 img{
 	max-width: 40%;
 }
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	background-color: var(--color-body-bg);
+	color: var(--color-body-text);
+}
