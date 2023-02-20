@@ -56,3 +56,9 @@ nav section {
 img{
 	max-width: 40%;
 }
+:root {
+	--color-body-text: #ffffff;
+	--color-body-bg: #1d2753;
+	--color-links: #549482;
+	--color-header-footer-bg: #56739a;
+}
