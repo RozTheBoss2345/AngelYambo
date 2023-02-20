@@ -54,6 +54,5 @@ nav section {
 }
 
 img{
-	width: 400px;
-    height: auto;
+	max-width: 40%;
 }
