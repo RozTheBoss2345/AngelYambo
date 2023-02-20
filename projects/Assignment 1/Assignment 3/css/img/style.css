@@ -1,0 +1,54 @@
+
+#container {
+	width:90%;
+	margin:auto;
+}
+
+
+
+figure {
+	margin:0px;
+}
+
+figure img {
+	width:100%;
+}
+
+nav section {
+	border:1px solid black;
+	margin-bottom: 15px;
+}
+.mobile{
+	background: orange;
+}
+.desktop{
+	opacity: 0.3;
+}
+
+@media all and (min-width: 769px) {
+	
+	#container {
+		width:80%;
+	}
+	.mobile{
+		display: none;
+	}
+	.desktop{
+		opacity: 1;
+	}
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	nav section{
+		flex: 0 1 48%;
+	}
+		
+	
+}
+@media all and (min-width: 1024px) {
+	nav section{
+		flex: 0 1 32%;
+	}
+}
