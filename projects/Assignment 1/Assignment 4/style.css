@@ -1,8 +1,7 @@
 
     .container {
-        
-        transition: transform 0.3s ease-in-out;
-        transform: scale(0.1);
+        position: relative;
+       visibility: hidden;
       }
 
       
@@ -47,5 +46,5 @@
         background-color: black;
      }
 img:hover {
-    transform: scale(1.2);
+    visibility: visible;
 }
