@@ -1,7 +1,7 @@
 
     .container {
         position: relative;
-        transition: transform 0.3s ease-in-out;
+        opacity: 0;
       }
 
       
@@ -47,5 +47,5 @@
      }
 img:hover {
     transform: scale(1.2);
-    opacity: 0;
+    opacity: 1;
 }
