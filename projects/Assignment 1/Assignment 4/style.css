@@ -2,8 +2,9 @@
     .container {
         position: relative;
         
-  
+  opacity: 0%;
       }
+
       
       .one {
         position: absolute;
@@ -45,3 +46,6 @@
      * {
         background-color: black;
      }
+img:hover {
+    opacity: 100%;
+}
