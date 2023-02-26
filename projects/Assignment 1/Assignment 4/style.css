@@ -1,7 +1,7 @@
 
     .container {
         position: relative;
-        opacity: 0;
+        
   
       }
       
@@ -45,19 +45,3 @@
      * {
         background-color: black;
      }
-
-     @keyframes jump {
-        0% {
-          transform: translate(-50%, -50%) scale(1);
-        }
-        50% {
-          transform: translate(-50%, -80%) scale(1.2);
-        }
-        100% {
-          transform: translate(-50%, -50%) scale(1);
-        }
-      }
-
-      .img:hover + .container{
-        opacity: 1;
-      }
