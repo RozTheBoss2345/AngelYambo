@@ -46,5 +46,6 @@
         background-color: black;
      }
 img:hover {
-    transform: translate(100px,100px);
+
+    transform: scale(1,1) translate(100px,100px);
 }
