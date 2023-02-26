@@ -2,7 +2,7 @@
     .container {
         position: relative;
         
-  opacity: 10%;
+        transition: opacity 0.3s ease-in-out;
       }
 
       
