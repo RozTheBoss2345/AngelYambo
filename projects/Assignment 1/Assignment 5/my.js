@@ -1,8 +1,6 @@
 <script>
 $(document).ready(function() {
-  $('hide').click(function() {
-    $('#elementToHide').hide();
-  })
+   $('#elementToHide').hide()
 });
 </script>
   
