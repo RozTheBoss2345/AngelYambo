@@ -1,0 +1,65 @@
+:root {
+    --color-body-text: #336699;
+    --color-body-bg: #333333;
+    
+   
+  }
+
+
+
+
+
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+@media all and (max-width: 767px) {
+    
+    
+    body {
+      font-size: 14px;
+    }
+    
+    .container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    
+    
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  @media all and (min-width: 992px) {
+   
+    
+    body {
+      font-size: 18px;
+    }
+    
+    .container {
+      max-width: 1200px;
+    }
+  }
