@@ -1,6 +1,12 @@
 <script>
 $(document).ready(function() {
-   $('#hide1').hide()
+  $("#show-image-btn").click(function() {
+    $("#my-image").show();
+    $(document).ready(function() {
+        $("#hide").hide();
+      });
+  })
+  
 });
 </script>
   
