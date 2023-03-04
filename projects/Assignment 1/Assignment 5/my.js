@@ -1,9 +1,9 @@
 <script>
 $(document).ready(function() {
-  $("#show-image-btn").click(function() {
-    $("#my-image").show();
+  $("button").click(function() {
+    $("img").show();
     $(document).ready(function() {
-        $("#hide").hide();
+        $("img").hide();
       });
   })
   
