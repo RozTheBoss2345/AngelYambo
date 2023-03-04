@@ -1,6 +1,6 @@
 <script>
 $(document).ready(function() {
-   $('#elementToHide').hide()
+   $('#hide1').hide()
 });
 </script>
   
