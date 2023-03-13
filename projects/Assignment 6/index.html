@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="style.css">	
-    <link rel="stylesheet" href="my.js">
 	<title>Assignment 6</title>
 	
 	
@@ -51,3 +50,50 @@
 
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    
+    <!-- Write your jQuery code inside of the .ready() function below -->
+    <script>
+        $(document).ready(function() {
+            $('figure#smallshadow1').hide();
+
+            $('figure#smallshadow2').hide();
+
+            $('figure#smallshadow3').hide();
+
+            $('button#button1').click(function() {
+                $('figure#smallshadow1').show();
+
+            });
+
+            $('button#button2').click(function() {
+                $('figure#smallshadow1').hide();
+
+            });
+
+            $('button#button3').click(function() {
+                $('figure#smallshadow2').show();
+
+            });
+
+            $('button#button4').click(function() {
+                $('figure#smallshadow2').hide();
+
+            });
+
+            $('button#button5').click(function() {
+                $('figure#smallshadow3').show();
+
+            });
+
+            $('button#button6').click(function() {
+                $('figure#smallshadow3').hide();
+
+            });
+            
+        });
+  </script>
+</body>
+</html>
+    </body>
